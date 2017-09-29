@@ -10,4 +10,8 @@ class TypesTest {
     @Test fun boxed2Test() {
         boxed2()
     }
+
+    @Test fun arraysTest() {
+        arrays()
+    }
 }
