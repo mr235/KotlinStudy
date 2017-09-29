@@ -7,16 +7,16 @@ class basic_syntax_test {
 //        return a + b
 //    }
 
-    @Test fun sum() {
+    @Test fun sumTest() {
         Assert.assertEquals(5, sum(1, 4))
     }
-    @Test fun sum2() {
+    @Test fun sum2Test() {
         Assert.assertEquals(5, sum2(1, 4))
     }
-    @Test fun printSum() {
+    @Test fun printSumTest() {
         printSum(1, 4)
     }
-    @Test fun printSum2() {
+    @Test fun printSum2Test() {
         printSum2(1, 4)
     }
     @Test fun localVariablesTest() {
@@ -26,54 +26,54 @@ class basic_syntax_test {
         stringTemplates()
     }
 
-    @Test fun maxOf() {
+    @Test fun maxOfTest() {
         Assert.assertEquals(4, maxOf(1, 4))
     }
 
-    @Test fun maxOf2() {
+    @Test fun maxOf2Test() {
         Assert.assertEquals(4, maxOf2(1, 4))
     }
 
-    @Test fun maxOf3() {
+    @Test fun maxOf3Test() {
         Assert.assertEquals(4, maxOf3(1, 4))
     }
 
-    @Test fun myParseInt() {
+    @Test fun myParseIntTest() {
         Assert.assertEquals(3, myParseInt("4"))
     }
 
-    @Test fun printProduct() {
+    @Test fun printProductTest() {
         printProduct("4", "a5")
     }
 
-    @Test fun getStringLength() {
+    @Test fun getStringLengthTest() {
         Assert.assertEquals(3, getStringLength("abc"))
     }
 
-    @Test fun useForLoop() {
+    @Test fun useForLoopTest() {
         useForLoop(1)
     }
 
-    @Test fun useForLoopIndex() {
+    @Test fun useForLoopIndexTest() {
         useForLoopIndex(1)
     }
 
-    @Test fun useWhileLoop() {
+    @Test fun useWhileLoopTest() {
         useWhileLoop(1)
     }
 
-    @Test fun describe() {
+    @Test fun describeTest() {
         val describe = describe("Hello")
         println(describe)
     }
-    @Test fun useRanges() {
+    @Test fun useRangesTest() {
         useRanges(1)
     }
-    @Test fun iteratingRange() {
+    @Test fun iteratingRangeTest() {
         iteratingRange(1)
     }
 
-    @Test fun useCollections() {
+    @Test fun useCollectionsTest() {
         useCollections(1)
     }
 

@@ -157,7 +157,7 @@ fun useCollections(x: Any) {
     }
     println("------------------------")
     items
-    .filter { it.startsWith("a") }
+    .filter { it.startsWith("a") }  // TODO 这个it是哪来的
     .sortedBy { it }
     .map { it.toUpperCase() }
     .forEach { println(it) }
