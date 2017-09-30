@@ -59,3 +59,25 @@ fun arrays() {
     }
     println()
 }
+
+// 没有特殊字符
+fun rawString() {
+    val text = """
+        ab\nc  de
+        f   g\th  i
+        """
+    for (c in text) {
+        print(c)
+    }
+}
+
+fun stringTemplates() {
+    val  i = 10
+    val s = "i = $i"
+    println(s)
+    val s2 = "abc"
+    val str = "$s.length is ${s.length}"
+    println(str)
+    val price = """${'$'}9.99  $"""
+    println(price)
+}

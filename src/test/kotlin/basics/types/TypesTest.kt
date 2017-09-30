@@ -14,4 +14,12 @@ class TypesTest {
     @Test fun arraysTest() {
         arrays()
     }
+
+    @Test fun rawStringTest() {
+        rawString()
+    }
+
+    @Test fun stringTemplatesTest() {
+        stringTemplates()
+    }
 }
