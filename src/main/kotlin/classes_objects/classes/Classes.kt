@@ -22,3 +22,12 @@ class Customer(name: String) {
     }
     var customerKey = name.toUpperCase()
 }
+
+// 不能被创建的类(私有构造函数)
+class DontCreateMe private constructor() {}
+
+// 没有声明父类的类，父类是Any(不是java.lang.Object)
+
+open class Base(p: Int)
+
+class Derived(p: Int) : Base(p)
