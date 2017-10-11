@@ -25,7 +25,7 @@ class ClassesTest {
         baz.g()
     }
 
-    @Test fun overridSameMethodTest() {
+    @Test fun overrideSameMethodTest() {
         var c = C();
         c.f()
     }
